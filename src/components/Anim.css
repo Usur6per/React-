@@ -1,0 +1,40 @@
+.anim-container {
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+    width: fit-content;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.anim-field {
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+    background-image: url('./img/Background.jpg');
+    background-position: contain;
+    background-size: auto;
+    border-radius: 1rem;
+}
+
+.anim-ball {
+    border: 1px solid black;
+    border-radius: 50%;
+
+    width: 200px;
+    height: 200px;
+
+    background-color: rgb(247, 0, 41);
+    /* background-image: url(./img/Basketball.png); */
+    background-position: center;
+    background-size: cover;
+    /* background-size: cover; */
+    position: relative;
+     /* relative กับตัว field */ 
+    /* left: calc(700px - 200px - 2px); */
+    top: 0px;
+    left: 0px;
+}
+
+.anim-control {
+    margin-top: 1rem;
+}
